@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#profile-container {
+  background-color: #FFF;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 26%;
+  margin-right: auto;
+  padding: 30px;
+  border-radius: 5px;
+  width: 850px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 18px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+input[type="submit"] {
+  width: calc(100% - 18px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  background-color: #9370DB;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #BA55D3;
+}
+
+#password_placeholder {
+  display: inline-block;
+  padding: 7px;
+}
+
+#profile-info {
+  flex: 1;
+  padding-right: 40px;
+}
+
+#profile-pic-container {
+  flex: 1;
+}
+
+#profile-pic-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#profile-pic-container form {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#profile-pic-container form input[type="submit"] {
+  height: 40px;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 13%;
+}
+
+.error-message-container .alert {
+  max-width: 400px;
+}
